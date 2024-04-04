@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #212b40;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+.games{
+    display: flex;
+    gap: 10px;
+}
+.game{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    flex-basis: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 1.5s; 
+}
+.a{
+   
+    text-decoration: none;
+}
+.game:hover{
+    flex-grow: 20;
+}
+.game h3{
+    white-space: nowrap;
+    color: white;
+    padding: 10px;
+    opacity: 0.5;
+}
+.game:hover h3{
+    opacity: 1;
+}
+.game:nth-child(1){
+background-image: url("https://kodfun.github.io/Reels/FlexAccordion/1.jpg");
+}
+.game:nth-child(2){
+    background-image: url("https://kodfun.github.io/Reels/FlexAccordion/2.jpg");
+}
+.game:nth-child(3){
+    background-image: url("https://kodfun.github.io/Reels/FlexAccordion/3.jpg");
+}
+.game:nth-child(4){
+    background-image: url("https://kodfun.github.io/Reels/FlexAccordion/4.jpg");
+}
+.game:nth-child(5){
+    background-image: url("https://kodfun.github.io/Reels/FlexAccordion/5.jpg");
+}
